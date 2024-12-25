@@ -8,7 +8,7 @@ import whiteGradient from "@/assets/images/white-gradient.png";
 import map from "@/assets/images/map.png";
 import noResult from "@/assets/images/no-result.png";
 import pikachu from "@/assets/images/Pikachu-pic-1.png";
-
+import splash_cafe from "@/assets/images/splash_cafe.png";
 export default {
   onboarding,
   avatar,
@@ -19,5 +19,6 @@ export default {
   whiteGradient,
   map,
   noResult,
-  pikachu
+  pikachu,
+  splash_cafe
 };
