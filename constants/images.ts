@@ -9,6 +9,8 @@ import map from "@/assets/images/map.png";
 import noResult from "@/assets/images/no-result.png";
 import pikachu from "@/assets/images/Pikachu-pic-1.png";
 import splash_cafe from "@/assets/images/splash_cafe.png";
+import icon from "@/assets/images/icon.png";
+
 export default {
   onboarding,
   avatar,
@@ -20,5 +22,6 @@ export default {
   map,
   noResult,
   pikachu,
-  splash_cafe
+  splash_cafe,
+  icon
 };

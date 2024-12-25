@@ -15,14 +15,14 @@ const TabIcon = ({
   <View className="flex-1 mt-3 flex flex-col items-center">
     <Image
       source={icon}
-      tintColor={focused ? "#0061FF" : "#666876"}
+      tintColor={focused ? "#000" : "#4e250f"}
       resizeMode="contain"
       className="size-6"
     />
     <Text
       className={`${
         focused
-          ? "text-primary-300 font-rubik-medium"
+          ? "text-black-300 font-rubik-bold"
           : "text-black-200 font-rubik"
       } text-xs w-full text-center mt-1`}
     >
@@ -37,7 +37,7 @@ const TabsLayout = () => {
       screenOptions={{
         tabBarShowLabel: false,
         tabBarStyle: {
-          backgroundColor: "white",
+          backgroundColor: "#f2d3bd",
           position: "absolute",
           borderTopColor: "#0061FF1A",
           borderTopWidth: 1,
@@ -52,7 +52,7 @@ const TabsLayout = () => {
           title: "HOME",
           headerShown: false,
           tabBarIcon: ({ focused }) => (
-            <TabIcon focused={focused} icon={icons.search} title="Home" />
+            <TabIcon focused={focused} icon={icons.home} title="Home" />
           ),
         }}
       />
@@ -62,7 +62,7 @@ const TabsLayout = () => {
           title: "menu",
           headerShown: false,
           tabBarIcon: ({ focused }) => (
-            <TabIcon focused={focused} icon={icons.person} title="Menu" />
+            <TabIcon focused={focused} icon={icons.cutlery} title="Menu" />
           ),
         }}
       />
