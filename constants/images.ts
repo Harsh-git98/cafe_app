@@ -11,6 +11,12 @@ import pikachu from "@/assets/images/Pikachu-pic-1.png";
 import splash_cafe from "@/assets/images/splash_cafe.png";
 import icon from "@/assets/images/icon.png";
 
+import shop1 from "@/assets/images/shop1.png";
+import shop2 from "@/assets/images/shop2.png";
+import shop3 from "@/assets/images/shop3.png";
+import shop4 from "@/assets/images/shop4.png";
+import shop5 from "@/assets/images/shop5.png";  
+
 export default {
   onboarding,
   avatar,
@@ -23,5 +29,5 @@ export default {
   noResult,
   pikachu,
   splash_cafe,
-  icon
+  icon, shop1, shop2, shop3, shop4, shop5
 };

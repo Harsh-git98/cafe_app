@@ -19,11 +19,11 @@ import ReviewCard from '@/components/Reviews'
 const AnimatedFlatList = Animated.createAnimatedComponent(FlatList);
 
 const cards = [
-  { title: 'House 1', description: 'Beautiful 3BHK House', image: images.splash_cafe },
-  { title: 'House 2', description: 'Modern 2BHK Apartment', image: images.splash_cafe},
-  { title: 'House 3', description: 'Modern 2BHK Apartment', image: images.splash_cafe},
-  { title: 'House 4', description: 'Modern 2BHK Apartment', image: images.splash_cafe},
-  { title: 'House 5', description: 'Modern 2BHK Apartment', image: images.splash_cafe },
+  { title: 'House 1', description: 'Beautiful 3BHK House', image: images.shop1 },
+  { title: 'House 2', description: 'Modern 2BHK Apartment', image: images.shop2},
+  { title: 'House 3', description: 'Modern 2BHK Apartment', image: images.shop3},
+  { title: 'House 4', description: 'Modern 2BHK Apartment', image: images.shop4},
+  { title: 'House 5', description: 'Modern 2BHK Apartment', image: images.shop5},
   // Add more cards here
 ];
 
