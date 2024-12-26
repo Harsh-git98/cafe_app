@@ -9,14 +9,10 @@ interface FeatureCardProps {
   };
 }
 
-const FeatureCard: React.FC<FeatureCardProps> = ({ item }) => {
+const Reviewcards: React.FC<FeatureCardProps> = ({ item }) => {
   return (
     <View style={styles.card}>
       <Image source={ item.image } style={styles.image} />
-      <View style={styles.cardContent}>
-        <Text style={styles.title}>{item.title}</Text>
-        <Text style={styles.description}>{item.description}</Text>
-      </View>
     </View>
   );
 };
@@ -36,7 +32,7 @@ const styles = StyleSheet.create({
   },
   image: {
     width: '100%',
-    height: 200,
+    height: 250,
     borderRadius: 8,
   },
   cardContent: {
@@ -53,4 +49,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default FeatureCard;
+export default Reviewcards;

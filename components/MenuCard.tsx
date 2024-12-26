@@ -1,21 +1,23 @@
 import React from 'react';
 import { View, Text, Image, StyleSheet, ImageSourcePropType } from 'react-native';
 
-interface FeatureCardProps {
+interface MenuCardProps {
   item: {
     image: ImageSourcePropType;
-    title: string;
+    name: string;
     description: string;
+    price: string;
   };
 }
 
-const FeatureCard: React.FC<FeatureCardProps> = ({ item }) => {
+const MenuCard: React.FC<MenuCardProps> = ({ item }) => {
   return (
     <View style={styles.card}>
-      <Image source={ item.image } style={styles.image} />
+      <Image source={item.image} style={styles.image} />
       <View style={styles.cardContent}>
-        <Text style={styles.title}>{item.title}</Text>
+        <Text style={styles.name}>{item.name}</Text>
         <Text style={styles.description}>{item.description}</Text>
+        <Text style={styles.price}>{item.price}</Text>
       </View>
     </View>
   );
@@ -24,33 +26,38 @@ const FeatureCard: React.FC<FeatureCardProps> = ({ item }) => {
 const styles = StyleSheet.create({
   card: {
     flex: 1,
-    margin: 5,
-    borderRadius: 8,
+    flexDirection: 'row',
+    margin: 10,
+    borderRadius: 10,
     backgroundColor: '#fff',
     shadowColor: '#000',
     shadowOpacity: 0.1,
     shadowRadius: 10,
     elevation: 5,
-    width: '100%',
-    height: 250,
+    overflow: 'hidden',
   },
   image: {
-    width: '100%',
-    height: 200,
-    borderRadius: 8,
+    width: '40%',
+    height: 150,
   },
   cardContent: {
     padding: 10,
   },
-  title: {
-    fontSize: 16,
-    fontWeight: '600',
+  name: {
+    fontSize: 18,
+    fontWeight: '700',
     color: '#333',
   },
   description: {
-    fontSize: 12,
-    color: '#777',
+    fontSize: 14,
+    color: '#555',
+    marginVertical: 5,
+  },
+  price: {
+    fontSize: 16,
+    fontWeight: '600',
+    color: '#E91E63',
   },
 });
 
-export default FeatureCard;
+export default MenuCard;
