@@ -16,6 +16,17 @@ import shop2 from "@/assets/images/shop2.png";
 import shop3 from "@/assets/images/shop3.png";
 import shop4 from "@/assets/images/shop4.png";
 import shop5 from "@/assets/images/shop5.png";  
+import americano from "@/assets/images/americano.png";
+import plaincappucino from "@/assets/images/plaincappucino.png";
+import expresso from "@/assets/images/expresso.png";
+import coldcoffee from "@/assets/images/coldcoffee.png";
+import grilledsandwich from "@/assets/images/grilledsandwich.png";
+import greensandwich from "@/assets/images/greensandwich.png";
+import doubleexpresso from "@/assets/images/doubleexpresso.png";
+import redpasta from "@/assets/images/redpasta.png";
+import whitepasta from "@/assets/images/whitepasta.png";
+import discount from "@/assets/images/discount.png";
+
 
 export default {
   onboarding,
@@ -29,5 +40,5 @@ export default {
   noResult,
   pikachu,
   splash_cafe,
-  icon, shop1, shop2, shop3, shop4, shop5
+  icon, shop1, shop2, shop3, shop4, shop5, americano, plaincappucino, expresso, coldcoffee, grilledsandwich, greensandwich, doubleexpresso, redpasta, whitepasta , discount
 };

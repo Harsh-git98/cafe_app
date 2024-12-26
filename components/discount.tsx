@@ -21,14 +21,17 @@ const styles = StyleSheet.create({
   card: {
     flex: 1,
     margin: 5,
-    borderRadius: 8,
+    borderRadius: 16,
     backgroundColor: '#fff',
     shadowColor: '#000',
-    shadowOpacity: 0.1,
-    shadowRadius: 10,
-    elevation: 5,
+    shadowOpacity: 0.8,
+    shadowRadius: 20,
+    elevation: 10,
     width: '100%',
     height: 250,
+    
+    borderColor: '#000',
+    borderWidth: 4,
   },
   image: {
     width: '100%',

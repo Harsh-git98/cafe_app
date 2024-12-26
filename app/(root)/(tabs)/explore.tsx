@@ -16,27 +16,32 @@ import Reviewcards from '@/components/discount'
 import ReviewCard from '@/components/Reviews'
 
 
-const AnimatedFlatList = Animated.createAnimatedComponent(FlatList);
 
 const cards = [
-  { title: 'House 1', description: 'Beautiful 3BHK House', image: images.shop1 },
-  { title: 'House 2', description: 'Modern 2BHK Apartment', image: images.shop2},
-  { title: 'House 3', description: 'Modern 2BHK Apartment', image: images.shop3},
-  { title: 'House 4', description: 'Modern 2BHK Apartment', image: images.shop4},
-  { title: 'House 5', description: 'Modern 2BHK Apartment', image: images.shop5},
+  { title: 'Ascetic Vibe', description: '', image: images.shop1 },
+  { title: 'Best coffee', description: '', image: images.shop2},
+  { title: 'Themed Cafe', description: '', image: images.shop3},
+  { title: 'Perfect Date', description: '', image: images.shop4},
+  { title: 'Rooftop Facility', description: '', image: images.shop5},
   // Add more cards here
 ];
 
 const rcards = [
-  { name: 'House 1',review:' Very goodVirtualizedLists should never be nested inside plain ScrollViews with the same orientation because it can break windowing and other functionality - use another VirtualizedList-backed container instead. [Component Stack] ', rating: 5, avatar: images.splash_cafe },
-  { name: 'House 2',review:' Very goodVirtualizedLists should never be nested inside plain ScrollViews with the same orientation because it can break windowing and other functionality - use another VirtualizedList-backed container instead. [Component Stack] ', rating: 5, avatar: images.splash_cafe },
+  { name: 'Linda',review:' Awesome vibe here and 20 words ', rating: 5, avatar: icons.person },
+  { name: 'House 2',review:' BEst Cafe and perfect for date', rating: 5, avatar: icons.person },
+  { name: 'Linda',review:' Awesome vibe here and 20 words ', rating: 5, avatar: icons.person },
+  { name: 'House 2',review:' BEst Cafe and perfect for date', rating: 5, avatar: icons.person },
+ 
+  { name: 'Linda',review:' Awesome vibe here and 20 words ', rating: 5, avatar: icons.person },
+  { name: 'House 2',review:' BEst Cafe and perfect for date', rating: 5, avatar: icons.person },
+ 
  
 ];
 
 
 
 const newcards = [
-  { title: '', description: '', image: images.splash_cafe },
+  { title: '', description: '', image: images.discount },
 
 ];
 const explore = () => {
@@ -105,7 +110,7 @@ const explore = () => {
         columnWrapperStyle={{ flexWrap: 'wrap', gap: 5, paddingHorizontal: 5 }}
         showsVerticalScrollIndicator={false}
         ListHeaderComponent={() => (
-          <View style={{ paddingHorizontal: 16 }}>
+          <View style={{ paddingHorizontal: 16 }} className="mt-2">
             <Text style={{ fontSize: 24, fontWeight: 'bold', marginBottom: 16 }}>
               Reviews:
               </Text>
