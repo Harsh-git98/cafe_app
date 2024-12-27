@@ -15,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/icon.png",
         "backgroundColor": "#41221b"
-      }
+      },
+      "package": "com.harshranjan98.Cafe"
     },
     "web": {
       "bundler": "metro",
@@ -49,6 +50,11 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f0654dba-558c-429e-8adf-f40f33b006c1"
+      }
     }
   }
 }
