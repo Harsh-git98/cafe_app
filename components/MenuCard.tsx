@@ -14,9 +14,9 @@ const MenuCard: React.FC<MenuCardProps> = ({ item }) => {
   return (
     <View style={styles.card}>
       <Image source={item.image} style={styles.image} />
-      <View style={styles.cardContent}>
+      <View style={styles.cardContent} className='pr-10'>
         <Text style={styles.name}>{item.name}</Text>
-        <Text style={styles.description}>{item.description}</Text>
+        <Text style={styles.description} className='mr-30'>{item.description}</Text>
         <Text style={styles.price}>{item.price}</Text>
       </View>
     </View>
@@ -50,13 +50,14 @@ const styles = StyleSheet.create({
   },
   description: {
     fontSize: 14,
-    color: '#555',
-    marginVertical: 5,
+    color: '#361b08',
+    maxWidth:'80%'
   },
   price: {
     fontSize: 16,
     fontWeight: '600',
     color: '#E91E63',
+    paddingTop: 10
   },
 });
 

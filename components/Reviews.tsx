@@ -14,13 +14,13 @@ const ReviewCard: React.FC<ReviewCardProps> = ({ item }) => {
   return (
     <View style={styles.card}>
       <View style={styles.header}>
-        <Image source={item.avatar} style={styles.avatar} />
+        <Image source={item.avatar} style={styles.avatar} tintColor={"#4e250f"} />
         <View style={styles.headerContent}>
           <Text style={styles.name}>{item.name}</Text>
           <Text style={styles.rating}>{'\u2605'.repeat(item.rating)}{'\u2606'.repeat(5 - item.rating)}</Text>
         </View>
       </View>
-      <Text style={styles.review}>{item.review}</Text>
+      <Text style={styles.review} className='font-rubik-Light'>{item.review}</Text>
     </View>
   );
 };
@@ -31,7 +31,7 @@ const styles = StyleSheet.create({
     margin: 5,
     padding: 10,
     borderRadius: 8,
-    backgroundColor: '#fff',
+    backgroundColor: '#af8064',
     shadowColor: '#000',
     shadowOpacity: 0.1,
     shadowRadius: 10,
@@ -44,26 +44,29 @@ const styles = StyleSheet.create({
     marginBottom: 10,
   },
   avatar: {
-    width: 50,
-    height: 50,
+    width: 30,
+    height: 30,
     borderRadius: 25,
     marginRight: 10,
+    
+
   },
   headerContent: {
     flex: 1,
   },
   name: {
     fontSize: 16,
-    fontWeight: '600',
+    fontWeight: '900',
     color: '#333',
   },
   rating: {
     fontSize: 14,
-    color: '#FFD700', // Gold color for stars
+    color: '#fff', // Gold color for stars
   },
   review: {
     fontSize: 14,
-    color: '#555',
+    color: '#361b08',
+    
   },
 });
 

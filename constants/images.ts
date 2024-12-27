@@ -26,8 +26,9 @@ import doubleexpresso from "@/assets/images/doubleexpresso.png";
 import redpasta from "@/assets/images/redpasta.png";
 import whitepasta from "@/assets/images/whitepasta.png";
 import discount from "@/assets/images/discount.png";
+import menu from "@/assets/images/menu.png";
 
-
+import banner from "@/assets/images/banner.png";
 export default {
   onboarding,
   avatar,
@@ -40,5 +41,7 @@ export default {
   noResult,
   pikachu,
   splash_cafe,
+  menu,
+  banner,
   icon, shop1, shop2, shop3, shop4, shop5, americano, plaincappucino, expresso, coldcoffee, grilledsandwich, greensandwich, doubleexpresso, redpasta, whitepasta , discount
 };
