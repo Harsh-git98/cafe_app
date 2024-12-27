@@ -28,7 +28,7 @@ To run this app locally, follow these steps:
 
 2. Navigate to the project directory:
    ```bash
-   cd cafe-app
+   cd cafe_app
    ```
 
 3. Install dependencies:
@@ -45,17 +45,14 @@ To run this app locally, follow these steps:
 
 ## Screenshots
 
-### Splash Screen
-![Splash Screen](path/to/splash-screen-image.png)
-
 ### Start Page
-![Start Page](path/to/start-page-image.png)
+![Start Page](assets/appimg/start.jpeg)
 
 ### Home Tab
-![Home Tab](path/to/home-tab-image.png)
+![Home Tab](assets/appimg/homepage.jpeg)
 
 ### Menu Tab
-![Menu Tab](path/to/menu-tab-image.png)
+![Menu Tab](assets/appimg/menupage.jpeg)
 
 ## Folder Structure
 
@@ -77,14 +74,7 @@ Contributions are welcome! If you'd like to contribute:
 3. Commit your changes and push them to your fork.
 4. Open a pull request explaining your changes.
 
-## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- Inspired by the love for coffee and clean UI designs.
-- Thanks to the React Native community for amazing tools and resources.
 
 ---
 
