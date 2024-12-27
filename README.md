@@ -42,17 +42,17 @@ To run this app locally, follow these steps:
    ```
 
 
-
 ## Screenshots
 
-### Start Page
-![Start Page](assets/appimg/start.jpeg)
+<div style="display: flex; justify-content: space-between;">
 
-### Home Tab
-![Home Tab](assets/appimg/homepage.jpeg)
+<img src="assets/appimg/start.jpeg" alt="Start Page" style="width: 30%;"/>
 
-### Menu Tab
-![Menu Tab](assets/appimg/menupage.jpeg)
+<img src="assets/appimg/homepage.jpeg" alt="Home Tab" style="width: 30%;"/>
+
+<img src="assets/appimg/menupage.jpeg" alt="Menu Tab" style="width: 30%;"/>
+
+</div>
 
 ## Folder Structure
 
