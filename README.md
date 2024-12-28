@@ -47,9 +47,9 @@ To run this app locally, follow these steps:
 
 
 <div class="image-container">
-  <img src="assets/appimg/start.jpeg" alt="Start Page" style="width: 30%;" />
-  <img src="assets/appimg/homepage.jpeg" alt="Home Tab" style="width: 30%;" />
-  <img src="assets/appimg/menupage.jpeg" alt="Menu Tab" style="width: 30%;" />
+  <img src="assets/appimg/start.jpeg" alt="Start Page" style="width: 60%;" />
+  <img src="assets/appimg/homepage.jpeg" alt="Home Tab" style="width: 60%;" />
+  <img src="assets/appimg/menupage.jpeg" alt="Menu Tab" style="width: 60%;" />
 </div>
 
 
