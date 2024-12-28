@@ -44,7 +44,7 @@ To run this app locally, follow these steps:
 
 ## Screenshots
 
-<div style="display: flex;">
+<div style="display: flex; align-items: flex-start;">
 
 <img src="assets/appimg/start.jpeg" alt="Start Page" style="width: 30%;"/>
 
