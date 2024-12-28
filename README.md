@@ -44,21 +44,12 @@ To run this app locally, follow these steps:
 
 ## Screenshots
 
-<style>
-  .image-container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .image-container img {
-    width: 30%;
-  }
-</style>
+
 
 <div class="image-container">
-  <img src="assets/appimg/start.jpeg" alt="Start Page" />
-  <img src="assets/appimg/homepage.jpeg" alt="Home Tab" />
-  <img src="assets/appimg/menupage.jpeg" alt="Menu Tab" />
+  <img src="assets/appimg/start.jpeg" alt="Start Page" style="width: 30%;" />
+  <img src="assets/appimg/homepage.jpeg" alt="Home Tab" style="width: 30%;" />
+  <img src="assets/appimg/menupage.jpeg" alt="Menu Tab" style="width: 30%;" />
 </div>
 
 
