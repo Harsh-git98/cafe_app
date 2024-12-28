@@ -44,15 +44,12 @@ To run this app locally, follow these steps:
 
 ## Screenshots
 
-<div style="display: flex; flex-direction: row; align-items: flex-start;">
-
-<img src="assets/appimg/start.jpeg" alt="Start Page" style="width: 30%;"/>
-
-<img src="assets/appimg/homepage.jpeg" alt="Home Tab" style="width: 30%;"/>
-
-<img src="assets/appimg/menupage.jpeg" alt="Menu Tab" style="width: 30%;"/>
-
+<div style="display: flex; flex-direction: column; align-items: flex-start;">
+  <img src="assets/appimg/start.jpeg" alt="Start Page" style="width: 30%;" />
+  <img src="assets/appimg/homepage.jpeg" alt="Home Tab" style="width: 30%;" />
+  <img src="assets/appimg/menupage.jpeg" alt="Menu Tab" style="width: 30%;" />
 </div>
+
 
 ## Folder Structure
 
